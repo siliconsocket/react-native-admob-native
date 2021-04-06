@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F7727025E4063E00C04033 /* RNAdmobNativeAdsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726225E4063E00C04033 /* RNAdmobNativeAdsManager.m */; };
+		65F7727125E4063E00C04033 /* RNGADNativeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726725E4063E00C04033 /* RNGADNativeViewManager.m */; };
+		65F7727225E4063E00C04033 /* RNGADMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726825E4063E00C04033 /* RNGADMediaView.m */; };
+		65F7727325E4063E00C04033 /* RNGADMediaViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726A25E4063E00C04033 /* RNGADMediaViewManager.m */; };
+		65F7727425E4063E00C04033 /* RNGADImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726B25E4063E00C04033 /* RNGADImageView.m */; };
+		65F7727525E4063E00C04033 /* RNGADNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726E25E4063E00C04033 /* RNGADNativeView.m */; };
+		65F7727625E4063E00C04033 /* RNNativeAdMobUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7726F25E4063E00C04033 /* RNNativeAdMobUtils.m */; };
+		F9FEA62523E973F700D2A1C7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FEA62423E973F700D2A1C7 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A96DA7721C146D7200FC639B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65F7726225E4063E00C04033 /* RNAdmobNativeAdsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAdmobNativeAdsManager.m; sourceTree = SOURCE_ROOT; };
+		65F7726325E4063E00C04033 /* RNGADMediaViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGADMediaViewManager.h; sourceTree = SOURCE_ROOT; };
+		65F7726425E4063E00C04033 /* RNGADImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGADImageView.h; sourceTree = SOURCE_ROOT; };
+		65F7726525E4063E00C04033 /* RNAdmobNativeAdsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAdmobNativeAdsManager.h; sourceTree = SOURCE_ROOT; };
+		65F7726625E4063E00C04033 /* RNGADNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGADNativeView.h; sourceTree = SOURCE_ROOT; };
+		65F7726725E4063E00C04033 /* RNGADNativeViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGADNativeViewManager.m; sourceTree = SOURCE_ROOT; };
+		65F7726825E4063E00C04033 /* RNGADMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGADMediaView.m; sourceTree = SOURCE_ROOT; };
+		65F7726925E4063E00C04033 /* RNNativeAdMobUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNativeAdMobUtils.h; sourceTree = SOURCE_ROOT; };
+		65F7726A25E4063E00C04033 /* RNGADMediaViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGADMediaViewManager.m; sourceTree = SOURCE_ROOT; };
+		65F7726B25E4063E00C04033 /* RNGADImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGADImageView.m; sourceTree = SOURCE_ROOT; };
+		65F7726C25E4063E00C04033 /* RNGADNativeViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGADNativeViewManager.h; sourceTree = SOURCE_ROOT; };
+		65F7726D25E4063E00C04033 /* RNGADMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNGADMediaView.h; sourceTree = SOURCE_ROOT; };
+		65F7726E25E4063E00C04033 /* RNGADNativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNGADNativeView.m; sourceTree = SOURCE_ROOT; };
+		65F7726F25E4063E00C04033 /* RNNativeAdMobUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNativeAdMobUtils.m; sourceTree = SOURCE_ROOT; };
+		A96DA7741C146D7200FC639B /* libRNAdMobManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAdMobManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FEA62423E973F700D2A1C7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../Downloads/GoogleMobileAdsSdkiOS-7.54.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96DA7711C146D7200FC639B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FEA62523E973F700D2A1C7 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96DA76B1C146D7200FC639B = {
+			isa = PBXGroup;
+			children = (
+				A96DA7761C146D7200FC639B /* RNAdMobManager */,
+				A96DA7751C146D7200FC639B /* Products */,
+				F9FEA62323E973F700D2A1C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A96DA7751C146D7200FC639B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96DA7741C146D7200FC639B /* libRNAdMobManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96DA7761C146D7200FC639B /* RNAdMobManager */ = {
+			isa = PBXGroup;
+			children = (
+				65F7726525E4063E00C04033 /* RNAdmobNativeAdsManager.h */,
+				65F7726225E4063E00C04033 /* RNAdmobNativeAdsManager.m */,
+				65F7726425E4063E00C04033 /* RNGADImageView.h */,
+				65F7726B25E4063E00C04033 /* RNGADImageView.m */,
+				65F7726D25E4063E00C04033 /* RNGADMediaView.h */,
+				65F7726825E4063E00C04033 /* RNGADMediaView.m */,
+				65F7726325E4063E00C04033 /* RNGADMediaViewManager.h */,
+				65F7726A25E4063E00C04033 /* RNGADMediaViewManager.m */,
+				65F7726625E4063E00C04033 /* RNGADNativeView.h */,
+				65F7726E25E4063E00C04033 /* RNGADNativeView.m */,
+				65F7726C25E4063E00C04033 /* RNGADNativeViewManager.h */,
+				65F7726725E4063E00C04033 /* RNGADNativeViewManager.m */,
+				65F7726925E4063E00C04033 /* RNNativeAdMobUtils.h */,
+				65F7726F25E4063E00C04033 /* RNNativeAdMobUtils.m */,
+			);
+			path = RNAdMobManager;
+			sourceTree = "<group>";
+		};
+		F9FEA62323E973F700D2A1C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9FEA62423E973F700D2A1C7 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A96DA7731C146D7200FC639B /* RNAdMobManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96DA77D1C146D7200FC639B /* Build configuration list for PBXNativeTarget "RNAdMobManager" */;
+			buildPhases = (
+				A96DA7701C146D7200FC639B /* Sources */,
+				A96DA7711C146D7200FC639B /* Frameworks */,
+				A96DA7721C146D7200FC639B /* CopyFiles */,
+				F9D5777923E9363800EF2384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAdMobManager;
+			productName = RNAdMobManager;
+			productReference = A96DA7741C146D7200FC639B /* libRNAdMobManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96DA76C1C146D7200FC639B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = accosine;
+				TargetAttributes = {
+					A96DA7731C146D7200FC639B = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BMF2ZL32LL;
+					};
+				};
+			};
+			buildConfigurationList = A96DA76F1C146D7200FC639B /* Build configuration list for PBXProject "RNAdMobManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = A96DA76B1C146D7200FC639B;
+			productRefGroup = A96DA7751C146D7200FC639B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96DA7731C146D7200FC639B /* RNAdMobManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D5777923E9363800EF2384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96DA7701C146D7200FC639B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F7727525E4063E00C04033 /* RNGADNativeView.m in Sources */,
+				65F7727625E4063E00C04033 /* RNNativeAdMobUtils.m in Sources */,
+				65F7727425E4063E00C04033 /* RNGADImageView.m in Sources */,
+				65F7727325E4063E00C04033 /* RNGADMediaViewManager.m in Sources */,
+				65F7727125E4063E00C04033 /* RNGADNativeViewManager.m in Sources */,
+				65F7727025E4063E00C04033 /* RNAdmobNativeAdsManager.m in Sources */,
+				65F7727225E4063E00C04033 /* RNGADMediaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A96DA77B1C146D7200FC639B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A96DA77C1C146D7200FC639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A96DA77E1C146D7200FC639B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../ios/Pods/**";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A96DA77F1C146D7200FC639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../ios/Pods/**";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96DA76F1C146D7200FC639B /* Build configuration list for PBXProject "RNAdMobManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96DA77B1C146D7200FC639B /* Debug */,
+				A96DA77C1C146D7200FC639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96DA77D1C146D7200FC639B /* Build configuration list for PBXNativeTarget "RNAdMobManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96DA77E1C146D7200FC639B /* Debug */,
+				A96DA77F1C146D7200FC639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96DA76C1C146D7200FC639B /* Project object */;
+}
